@@ -62,6 +62,15 @@ vec2 <- c(1990,1995)
 ## creating a list
 list1 <- list(vec,vec2)
 list1
+
+## Creating sequence of numbers
+sequ <- seq(2,10,2)
+sequ
+## repetition
+y <- rep('Ruth',5)
+y
+paste(sequ, y, sep = '_')
+
 ### creating matrix
 mat = matrix(1:9, nrow = 3, ncol = 3)
 mat
